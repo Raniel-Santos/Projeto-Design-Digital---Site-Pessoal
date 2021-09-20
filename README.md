@@ -1,7 +1,9 @@
-<h1>Projeto de Aplicação para Internet - Projeto Site Pessoal<h1>
+<h1 align = "center" >Projeto de Aplicação para Internet - Projeto Site Pessoal</h1>
 
-Desenvolvido por:
+<p align="center">Desenvolver um sistema para Internet que sirva como uma página pessoal onde possam ser
+encontradas informações do Desenvolvedor da aplicação. Informaçoes como experiência profissional, interesses, projetos, hobbies.</p>
 
-Raniel Francisco Santos de Paula
+<h3>Desenvolvido por:</h3>
 
-1° Semestre - DSM
+<p>Raniel Francisco Santos de Paula - 1°Semestre - DSM</p>
+
