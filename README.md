@@ -19,7 +19,7 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 
 - /doc
 
-  - Projeto Meu Site - Wireframes
+  - Projeto Meu Site - Wireframes.pdf
 
 
 
