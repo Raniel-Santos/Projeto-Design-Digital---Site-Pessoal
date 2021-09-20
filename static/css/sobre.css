@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+
+} 
+
+a:hover 
+    {
+    color:#00A0C6; 
+    text-decoration: underline; 
+    cursor:pointer;
+}
+
+/*background*/
+
+    #fundo{    
+        width:1440px;
+        height:874px;
+        background-image:url(images/image_10.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+/*Cabeçalho*/
+
+    .ret_cab{
+        position: absolute;
+        width: 1440px;
+        height: 120px;
+        left: 0px;
+        top: 0px;
+        border: 2px;
+        
+        background: #041F17;    
+    }
+
+
+    #logo{
+        position: absolute;
+        width: 201px;
+        height: 84px;
+        left: 49px;
+        top: 18px;
+        text-align: center;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+
+        background: #FFFFFF;
+    }
+
+/*Botões do Cabeçalho*/
+
+    button:hover {
+        background-color: rgb(126, 10, 19);
+        color:white;
+    }
+
+    .bot_sobre{
+        position: absolute;
+        font-family: Lancelot, Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+        color: #041F17;
+        width: 148px;
+        height: 47px;
+        left: 719px;
+        top: 31px;   
+
+        border: 3px solid #FFFFFF;
+        border-radius: 50px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+
+
+    .bot_projetos{
+        position: absolute;
+        font-family: Lancelot, Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+        color: #041F17;
+        width: 148px;
+        height: 47px;
+        left: 967px;
+        top: 31px;   
+
+        border: 3px solid #FFFFFF;
+        border-radius: 50px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+
+    .bot_hobby{
+        position: absolute;
+        font-family: Lancelot, Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+        color: #041F17;
+        width: 148px;
+        height: 47px;
+        left: 1215px;
+        top: 31px;   
+
+        border: 3px solid #FFFFFF;
+        border-radius: 50px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+
+/*Conteudo*/
+
+    #button_home{
+        position: absolute;
+        width: 65px;
+        height: 68px;
+        left: 1332px;
+        top: 137px;
+        
+        background: url(image.png);       
+    }
+
+
+    .titulo{
+        position: absolute;
+        width: 586px;
+        height: 73px;
+        left: 426px;
+        top: 137px;
+
+        font-family: Lancelot, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 53px;
+        text-align: center;
+
+        color: #041F17;
+
+    }
+
+    .ret_centro{
+        position: absolute;
+        width: 1348px;
+        height: 572px;
+        left: 49px;
+        top: 228px;
+        
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    #minha_foto{
+        position: absolute;
+        width: 279px;
+        height: 288px;
+        left: 111px;
+        top: 255px;
+        
+        background: url(minha_foto.png);
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 139.5px;
+    }
+
+    h4{
+        position: absolute;
+        width: 792px;
+        height: 518px;
+        left: 540px;
+        top: 255px;
+        
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        
+        color: #041F17;
+         
+    }
+
+    .tabela{
+        position: absolute;
+        width: 279px;
+        height: 192px;
+        left: 111px;
+        top: 571px;
+        border: 1px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    #nome{
+        position: absolute;
+        width: 180px;
+        height: 28px;
+        left: 160px;
+        top: 590px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        
+        color: #041F17;
+    }
+
+    #idade{
+        position: absolute;
+        width: 180px;
+        height: 28px;
+        left: 160px;
+        top: 624px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        
+    }
+
+    #local{
+        position: absolute;
+        width: 180px;
+        height: 28px;
+        left: 160px;
+        top: 658px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #041F17;
+    }
+
+    #git{
+        position: absolute;
+        width: 180px;
+        height: 28px;
+        left: 160px;
+        top: 692px;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        
+        color: #041F17;
+        
+        
+    
+    }
+
+/*Rodapé*/
+
+    .ret_rodape{
+        position: absolute;
+        width: 1440px;
+        height: 150px;
+        left: 0px;
+        top: 874px;
+
+        background: #041F17;
+    }
+
+    #youtube{
+        position: absolute;
+        width: 65px;
+        height: 68px;
+        left: 572px;
+        top: 908px;
+
+        background: url(image.png);
+    }
+
+    #telegram{
+        position: absolute;
+        width: 65px;
+        height: 68px;
+        left: 687px;
+        top: 908px;
+
+        background: url(image.png);        
+    }
+
+    #facebook{
+        position: absolute;
+        width: 65px;
+        height: 68px;
+        left: 802px;
+        top: 908px;
+
+        background: url(image.png);
+
+    }
+
+    span{
+        position: absolute;
+        width: 833px;
+        height: 28px;
+        left: 304px;
+        top: 985px;
+
+        font-family: Lancelot, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
