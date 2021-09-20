@@ -16,3 +16,46 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 * CSS 3.
 
 <h1> Estrutura dos Arquivos </h1>
+
+- /doc
+
+  - Projeto Meu Site - Wireframes
+
+
+
+- /src
+
+- /static
+    - /img
+        - background.png
+        - icone_home.png
+        - logo_facebook.png
+        - logo_telegram.png
+        - logo_youtube.png
+        - minha_foto.png
+    - /css
+        - futebol.css
+        - games.css
+        - hobbies.css
+        - index.css
+        - projeto_api.css
+        - projetos.css
+        - sobre.css
+
+
+   
+- /templates
+  - Futebol.html
+  - Games.html
+  - Hobby_tela.html
+  - index.html
+  - Projeto_API.html
+  - Projetos_tela.html
+  - sobre.html
+
+
+
+    
+    
+
+    
