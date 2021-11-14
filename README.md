@@ -63,7 +63,8 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 
 
 <h1> Video demonstrativo da aplicação </h1>
- <h4>Link: https://youtu.be/StdLu59V57A </h4>
+ <h4>Link da entrega 1: https://youtu.be/StdLu59V57A </h4>
+ <h4>Link da entrega 2: https://youtu.be/ZuYNZZ748xo </h4>
     
 
     
