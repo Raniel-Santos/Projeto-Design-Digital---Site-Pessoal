@@ -8,6 +8,12 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 <h3 align="center">Raniel Francisco Santos de Paula - 1°Semestre - DSM</h3>
 <br>
 
+<h1> Link de Acesso Rápido as Tags </h1>
+
+<h4> Entrega 1 (v1.0): https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/v.1.0 </h4>
+<h4> Entrega 2 (v2.0): https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/v.2.0 </h4>
+
+
 <h1> Ferramentas Utilizadas </h1>
 
 * Figma (para realização dos Wireframes);
@@ -62,7 +68,7 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
   - sobre.html
 
 
-<h1> Video demonstrativo da aplicação </h1>
+<h1> Video Demonstrativo da Aplicação </h1>
  <h4>Link da entrega 1: https://youtu.be/StdLu59V57A </h4>
  <h4>Link da entrega 2: https://youtu.be/ZuYNZZ748xo </h4>
     
