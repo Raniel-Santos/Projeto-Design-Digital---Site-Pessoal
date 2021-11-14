@@ -32,9 +32,7 @@ body{
  -webkit-flex: 0 0 auto;
 }
 
-
 /*CABEÇALHO*/
-
 
 .meulogo{
   max-width: 180px;
@@ -52,31 +50,56 @@ body{
 
     background: #041F17;
   }
-
 .nav-link{
     font-family: Lancelot, Arial, Helvetica, sans-serif;
     font-size: 20pt; 
     color: white; margin-top: 5vh;
   } 
 
-/*BOAS VINDAS*/
+/*CONTEUDO*/
 
-#meio{
+
+
+.legendas{
   text-align: center;
-  margin-top: 30%;
-  font-family: Lancelot, Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px; 
+  margin-top: 10px;
+  font-family: Lancelot,Arial; 
+  font-size: 24pt;
+  color: #041f17;
+}
+.flex-container2{
+  display:flex;
   
-  color: #041F17;
-  
+  margin-top: 100px;
 }
 
-.logocel{
-  display: none;
-  width: 40%;
-  margin-left: 30%;
+.futebol{
+  
+  width: 50%;
+
+}
+
+.fut{
+  display: flex;
+  border-radius: 20px;
+  width: 500px;
+  height: 390px;
+  margin-left: 25%;
+}
+
+
+.hobby{
+  
+  width: 50%;
+
+}
+
+.games{
+  display: flex;
+  border-radius: 20px;
+  width: 500px;
+  height: 400px;
+  margin-left: 25%;
 }
 
 /*RODAPÉ*/
@@ -165,7 +188,87 @@ body{
   color:#00aced;
 }
 
-@media screen and (max-width:500px) {
+
+
+@media (max-width:1000px) {
+
+
+  #cabecalho {
+    display: flex;
+    justify-content:center;
+      
+    width: 100%;
+    height: 6vh;
+    border: 2px;
+  
+    background:#041F17;
+  }
+  
+  .nav-link{
+    font-family: Lancelot, Arial, Helvetica, sans-serif;
+    font-size: 16pt; 
+    color:white; 
+    margin-top: 0.5vh;
+  
+  } 
+  
+  
+  /*CONTEUDO*/
+  
+  .flex-container2{
+    display:block;
+    
+    margin-top: 100px;
+  }
+  
+  .futebol{
+    
+    width: 40%;
+  
+  }
+  
+  .fut{
+    display: flex;
+    border-radius: 20px;
+    width: 250px;
+    height: 145px;
+    margin-left: 25%;
+  }
+  
+  
+  .hobby{
+    
+    width: 40%;
+  
+  }
+  
+  .games{
+    display: flex;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    margin-left: 25%;
+    
+  }
+  
+  }
+  /*RODAPE*/
+  
+  #myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;  
+    font-family: Lancelot, Arial, Helvetica, sans-serif;
+    font-size: 12pt
+  }
+  
+  #myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:white;
+  }
+
+@media (max-width:500px) {
 
 
 #cabecalho {
@@ -180,7 +283,7 @@ body{
 }
 
 .meulogo{
-  display: none;
+  
   max-width: 45px;
   max-height: 35px;  
   margin-top: 2px;
@@ -194,24 +297,54 @@ body{
 
 } 
 
-#meio{
-  text-align: center;
-  margin-top: 25%;
-  font-family: Lancelot, Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-   
+
+/*CONTEUDO*/
+
+.legendas{
+  margin-left: 160%;
+  margin-top: 10px;
+
+  font-family: Lancelot,Arial; 
+  font-size: 24pt;
+  color: #041f17;
+}
+
+.flex-container2{
+  display:block;
   
-  color: #041F17;
+  margin-top: 100px;
+}
+
+.futebol{
+  
+  width: 20%;
+
+}
+
+.fut{
+  display: flex;
+  border-radius: 20px;
+  width: 250px;
+  height: 145px;
+  margin-left: 75%;
   
 }
 
 
-.logocel{
-  display:block;
-  width: 40%;
-  margin-left: 30%;
+.hobby{
+  
+  width: 20%;
+
+}
+
+.games{
+  display: flex;
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  margin-left: 75%;
+}
+
 }
 /*RODAPE*/
 
@@ -229,4 +362,3 @@ body{
   background-color:white;
 }
 
-}

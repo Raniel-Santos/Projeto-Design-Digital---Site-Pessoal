@@ -1,239 +1,238 @@
+/*GERAIS*/
 *{
     margin: 0px;
     padding: 0px;
 }
 
-a { 
-    color: inherit; 
-    text-decoration: none;
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+  background-image: url(../img/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content{
+ flex: 1 0 auto;
+ -webkit-flex: 1 0 auto;
+ min-height: 200px;
+}
+
+#myFooter{
+ flex: 0 0 auto;
+ -webkit-flex: 0 0 auto;
+}
+
+/*CABEÇALHO*/
+
+.meulogo{
+  max-width: 180px;
+  max-height: 140px;  
+  
+}
+
+#cabecalho {
+    display: flex;
+    justify-content:space-between;
+    
+    width: 100%;
+    height: 15vh;
+    border: 2px;
+
+    background: #041F17;
+  }
+
+.nav-link{
+    font-family: Lancelot, Arial, Helvetica, sans-serif;
+    font-size: 20pt; 
+    color: white; margin-top: 5vh;
+  } 
+
+/*CONTEUDO*/
+
+.projeto{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+.mario{
+    width: 70%;
+    border-color: lightseagreen;
+    margin-top: 25px;
+
+}
+
+
+/*RODAPÉ*/
+
+
+.item{
+    display:flex;
+    justify-content:inline-flex
+}
+
+#myFooter{
+  padding-top:32px;
+}
+
+#myFooter .container{
+  text-align: center;
+}
+
+#myFooter .footer-copyright{
+  margin-bottom: 35px;
+  text-align: center;
+  color: #777;
+}
+
+#myFooter ul{
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+#myFooter a{
+  color: #282b2d;
+  font-size: 18px;
+}
+
+#myFooter li{
+  display: inline-block;
+  margin: 0px 15px;
+  line-height: 2;
+}
+
+#myFooter .footer-social{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color:#041F17;
+  
+}
+
+#myFooter .fa{
+  font-size: 36px;
+  margin-right: 15px;
+  margin-left: 20px;
+  background-color: white;
+  color: #d0d0d0;
+  border-radius: 51%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 43px;
+  text-decoration: none;
+  transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+ color: #2b55ff;
+}
+#myFooter .fa-facebook:focus{
+  color: #2b55ff; 
+}
+#myFooter .fa-instagram:focus{
+  color:purple;
+}
+#myFooter .fa-youtube:hover{
+  color:red;
+}
+#myFooter .fa-youtube:focus{
+  color:red;
+}
+#myFooter .fa-twitter:hover{
+  color: #00aced;
+
+}
+#myFooter .fa-twitter:focus{
+  color:#00aced;
+}
+
+
+
+
+/*SMARTPHONE*/
+
+@media (max-width:500px) {
+  
+.projeto{
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;     
+        
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+}
+    
+.sif{
+  width: 35%;
+  border-color: lightseagreen;
+  margin-top: 25px;
+    
+}
+    
+.meulogo{
+  max-width: 45px;
+  max-height: 35px;  
+  margin-top: 2px;
+}
+#cabecalho {
+  display: flex;
+  justify-content:center;
+    
+  width: 100%;
+  height: 6vh;
+  border: 2px;
+
+  background:#041F17;
+}
+
+.nav-link{
+  font-family: Lancelot, Arial, Helvetica, sans-serif;
+  font-size: 16pt; 
+  color:white; 
+  margin-top: 0.5vh;
 
 } 
 
-a:hover 
-    {
-    color:#00A0C6; 
-    text-decoration: underline; 
-    cursor:pointer;
+#meio{
+  text-align: center;
+  margin-top: 45%;
+  font-family: Lancelot, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+   
+  
+  color: #041F17;
+  
+}
+/*RODAPE*/
+
+#myFooter .footer-copyright{
+  margin-bottom: 35px;
+  text-align: center;  
+  font-family: Lancelot, Arial, Helvetica, sans-serif;
+  font-size: 12pt
 }
 
-/*background*/
+#myFooter .footer-social{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color:white;
+}
 
-    #fundo{    
-        width:1440px;
-        height:874px;
-        background-image:url(images/image_10.png);
-        background-repeat:no-repeat;
-        background-size:cover;
-    }
-
-/*Cabeçalho*/
-
-    .ret_cab{
-        position: absolute;
-        width: 1440px;
-        height: 120px;
-        left: 0px;
-        top: 0px;
-        border: 2px;
-        
-        background: #041F17;    
-    }
-
-
-    #logo{
-        position: absolute;
-        width: 201px;
-        height: 84px;
-        left: 49px;
-        top: 18px;
-        text-align: center;
-        font-family: Inter, Arial, Helvetica, sans-serif;
-        font-size: 16pt;
-
-        background: #FFFFFF;
-    }
-
-/*Botões do Cabeçalho*/
-
-    button:hover {
-        background-color: rgb(126, 10, 19);
-        color:white;
-    }
-
-    .bot_sobre{
-        position: absolute;
-        font-family: Lancelot, Arial, Helvetica, sans-serif;
-        font-size: 16pt;
-        color: #041F17;
-        width: 148px;
-        height: 47px;
-        left: 719px;
-        top: 31px;   
-
-        border: 3px solid #FFFFFF;
-        border-radius: 50px;
-        box-sizing: border-box;
-        background: #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-    }
-
-
-    .bot_projetos{
-        position: absolute;
-        font-family: Lancelot, Arial, Helvetica, sans-serif;
-        font-size: 16pt;
-        color: #041F17;
-        width: 148px;
-        height: 47px;
-        left: 967px;
-        top: 31px;   
-
-        border: 3px solid #FFFFFF;
-        border-radius: 50px;
-        box-sizing: border-box;
-        background: #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-    }
-
-    .bot_hobby{
-        position: absolute;
-        font-family: Lancelot, Arial, Helvetica, sans-serif;
-        font-size: 16pt;
-        color: #041F17;
-        width: 148px;
-        height: 47px;
-        left: 1215px;
-        top: 31px;   
-
-        border: 3px solid #FFFFFF;
-        border-radius: 50px;
-        box-sizing: border-box;
-        background: #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-    }
-
-/*Conteudo*/
-
-    #button_home{
-        position: absolute;
-        width: 65px;
-        height: 68px;
-        left: 1332px;
-        top: 137px;
-        
-        background: url(image.png);       
-    }
-
-
-    .titulo{
-        position: absolute;
-        width: 586px;
-        height: 73px;
-        left: 426px;
-        top: 137px;
-
-        font-family: Lancelot, Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 48px;
-        line-height: 53px;
-        text-align: center;
-
-        color: #041F17;
-
-    }
-
-    .ret_centro{
-        position: absolute;
-        width: 1348px;
-        height: 572px;
-        left: 49px;
-        top: 228px;
-        
-        background: rgba(255, 255, 255, 0.5);
-    }
-
-   
-
-    h4{
-        position: absolute;
-        width: 792px;
-        height: 518px;
-        left: 330px;
-        top: 255px;
-        
-        font-family: Inter, Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 40px;
-        text-align: center;
-        
-        color: #041F17;
-         
-    }
-
-
-/*Rodapé*/
-
-    .ret_rodape{
-        position: absolute;
-        width: 1440px;
-        height: 150px;
-        left: 0px;
-        top: 874px;
-
-        background: #041F17;
-    }
-
-    #youtube{
-        position: absolute;
-        width: 65px;
-        height: 68px;
-        left: 572px;
-        top: 908px;
-
-        background: url(image.png);
-    }
-
-    #telegram{
-        position: absolute;
-        width: 65px;
-        height: 68px;
-        left: 687px;
-        top: 908px;
-
-        background: url(image.png);        
-    }
-
-    #facebook{
-        position: absolute;
-        width: 65px;
-        height: 68px;
-        left: 802px;
-        top: 908px;
-
-        background: url(image.png);
-
-    }
-
-    span{
-        position: absolute;
-        width: 833px;
-        height: 28px;
-        left: 304px;
-        top: 985px;
-
-        font-family: Lancelot, Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 20px;
-        text-align: center;
-
-        color: #FFFFFF;
-
-    }
+}

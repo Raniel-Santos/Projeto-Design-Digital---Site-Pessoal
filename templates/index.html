@@ -5,44 +5,59 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../static/css/index.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lancelot&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <title>Pagina Inicial</title>
     </head>
 
-    <body>
-
-        <img id="fundo" src="../static/img/background.png" alt="fundo">
-
+    <body>       
+        
         <!--Cabeçalho-->
         <header>
-            <div class="ret_cab">
-                <div id="logo">LOGO</div>
-                <a href="../templates/sobre.html"><button class="bot_sobre"> <b> SOBRE </b></button></a>
-                <a href="../templates/Projetos_tela.html"><button class="bot_projetos"> <b> PROJETOS</b> </button></a>
-                <a href="../templates/Hobby_tela.html"><button class="bot_hobby"><b> HOBBIES </b></button></a>
-            </div>        
-        </header>
-
-        <!--Corpo do Site-->
-            <div class="boas_vindas"><b>BEM-VINDOS AO MEU SITE !!!</b></div>
-            <div class="meio">Venha conhecer meus projetos, debater sobre futebol, aprender um pouco de T.I e quem sabe marcar umas jogatinas? Venha conferir...</div>
+            <!--NAVBAR DESKTOP-->
             
+            <div class="flex-container" id="cabecalho">
+                <a href="../templates/index.html"><img src="../static/img/LOGOVERDE.png" class="meulogo" alt=""></a>               
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../templates/sobre.html">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../templates/Projetos_tela.html">PROJETOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../templates/Hobby_tela.html">HOBBY</a>
+                    </li>
+                </ul>
+            </div>
+        </header>       
+            
+
+
+        <!--TELA DE BOAS VINDAS-->    
+        <div class="container">
+            <p id="meio">BEM-VINDOS AO MEU SITE !!!</p>
+            <a href="../templates/index.html"><img src="../static/img/LOGOBRANCO1.png" class="logocel" alt=""></a>
+        </div>      
             
 
 
 
-
-        <!--Rodapé-->
-        <footer>
-                <div class="ret_rodape"></div>
-                <a href="https://www.youtube.com/channel/UCKPh8JpW2g6Mq6huV076_dQ"><img id="youtube" src="../static/img/logo_youtube.png" alt="logo YT"></a>
-                <a href="https://t.me/Raninho93"><img id="telegram" src="../static/img/logo_telegram.png" alt="logo Telegram"></a>
-                <a href="https://web.facebook.com/raniel.santos.522"><img id="facebook" src="../static/img/logo_facebook.png" alt="logo Facebook"></a>
-                <span>Desenvolvido por Raniel Santos. Todos os direitos reservados.</span>
-            
+        <!--Rodapé-->    
+        <div class="content">
+        </div>
+        <footer id="myFooter">
+            <div class="container">
+                <p class="footer-copyright" >Desenvolvido por Raniel Santos. Todos os Direitos Reservados.</p>
+            </div>
+            <div class="footer-social" >
+                <a href="https://web.facebook.com/raniel.santos.522/" class="social-icons"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCKPh8JpW2g6Mq6huV076_dQ" class="social-icons"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/Raninho_93" class="social-icons"><i class="fa fa-twitter"></i></a>
+            </div>
         </footer>
-
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
