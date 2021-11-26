@@ -1,3 +1,5 @@
+#Ignorando arquivos
+
 .idea/
 venv/
 *.pyc
