@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../static/css/games.css">
+        <link rel="stylesheet" href="../static/css/projetos.css">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lancelot&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <title>Games</title>
+        <title>Projetos</title>
     </head>
 
 
     <body>       
 
-        <!--Cabeçalho-->
+        
         <header>
-            <!--NAVBAR DESKTOP-->
+            
 
             <div class="flex-container" id="cabecalho">
                 <a href="../templates/index.html"><img src="../static/img/LOGOVERDE.png" class="meulogo" alt=""></a>                
@@ -33,31 +33,29 @@
                     </li>
                 </ul>
             </div>
-        </header>            
+        </header>   -->         
 
-
+        {% extends "base.html" %}
+        {% block contents %}
         <!--conteudo-->    
         <div class="projeto">
 
-            <p style="text-align: center; font-family: Lancelot, Arial;font-size: 24pt;"><b>GAMES</b></p>
-            Outro hobby que possuo são os jogos eletrônicos, jogos me acompanham desde qdo era pequeno, jogava no Super Nintendo dos meus tios. Meu primeiro videogame foi um Playstation 1.<br>
-            Os jogos me ajudaram e ainda ajudam em muito, como por exemplo, a aprender inglês, raciocinio lógico, pensar rápido.<br>
-            Atualmente, possuo 4 consoles:<b> PS3, PS4, Xbox Series S e um Nintendo Switch</b><br>
-            O melhor jogo de todos? muito dificil escolher apenas um, mas ficarei com ele, o que me introduziu nesse mundo:
-            <img src="../static/img/mario.png" class="mario" alt="">
+            <p style="text-align: center; font-family: Lancelot, Arial;font-size: 24pt;"><b>PROJETO API - Sistema de Informações Fatec</b></p>
+            Atualmente, a FATEC São José dos Campos não possui um portal de informações, quer seja para docentes ou discentes, capaz de exibir de forma seletiva e controlada os avisos gerais ou específicos para seus cursos (ex. Divulgação de editais, cursos de extensão, etc.).<br>
+            Portanto, é de interesse de toda a comunidade acadêmica o desenvolvimento de tal sistema.<br>
+            Para Solução do problema, foi desenvolvido o <b>SIF - Sistema de Informações Fatec:</b><br>
+            <img src="../static/img/login_sif.png" class="sif" alt="">
             <br>
             <br>
             <br>
             <br>
-            Bora jogar? Me adicione nas redes abaixo:<br>
-            <b>Xbox Live:</b> Raninho_93; <br>
-            <b>PSN:</b> Raninho93.
+            Ficou curioso? Acesse o nosso portifólio e veja tudo em detalhes: <a href="https://github.com/marynhaSjc/API-Gfour---Fatec-SJC">Projeto API</a>
             
         </div>
         
-         
+        {%endblock contents%} 
 
-        <!--Rodapé-->    
+        <!--
         <div class="content">
         </div>
         <footer id="myFooter">
@@ -72,4 +70,4 @@
         </footer>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
-</html>
+</html>-->

@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../static/css/futebol.css">
+        <link rel="stylesheet" href="../static/css/games.css">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lancelot&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <title>futebol</title>
+        <title>Games</title>
     </head>
 
 
     <body>       
 
-        <!--Cabeçalho-->
+       
         <header>
-            <!--NAVBAR DESKTOP-->
+            
 
             <div class="flex-container" id="cabecalho">
                 <a href="../templates/index.html"><img src="../static/img/LOGOVERDE.png" class="meulogo" alt=""></a>                
@@ -33,28 +33,32 @@
                     </li>
                 </ul>
             </div>
-        </header>            
+        </header> -->           
 
-
+        {% extends "base.html" %}
+        {% block contents %}
         <!--conteudo-->    
         <div class="projeto">
 
-            <p style="text-align: center; font-family: Lancelot, Arial;font-size: 24pt;"><b>FUTEBOL</b></p>
-            Sou um fanático por futebol desde quando era pequeno. Cheguei a jogar nas categorias de base do São Caetano quando tinha meus 10-13 anos de idade.<br>
-            Acompanho quase todas as ligas internacionais: Premier League, La Liga, Serie A, Ligue 1 e principlamente a UEFA Champions League.<br>
-            Meu time de coração? Ah essa é fácil demais...pela cor do site já diz... <b>SEP - Sociedade Esportiva Palmeiras</b><br>
-            <img src="../static/img/palmeiras.png" class="sif" alt="">
+            <p style="text-align: center; font-family: Lancelot, Arial;font-size: 24pt;"><b>GAMES</b></p>
+            Outro hobby que possuo são os jogos eletrônicos, jogos me acompanham desde qdo era pequeno, jogava no Super Nintendo dos meus tios. Meu primeiro videogame foi um Playstation 1.<br>
+            Os jogos me ajudaram e ainda ajudam em muito, como por exemplo, a aprender inglês, raciocinio lógico, pensar rápido.<br>
+            Atualmente, possuo 4 consoles:<b> PS3, PS4, Xbox Series S e um Nintendo Switch</b><br>
+            O melhor jogo de todos? muito dificil escolher apenas um, mas ficarei com ele, o que me introduziu nesse mundo:
+            <img src="../static/img/mario.png" class="mario" alt="">
             <br>
             <br>
             <br>
             <br>
-            Acesse o site oficial do Palmeiras aqui: <a href="https://www.palmeiras.com.br/pt-br/home/">Palmeiras</a>
+            Bora jogar? Me adicione nas redes abaixo:<br>
+            <b>Xbox Live:</b> Raninho_93; <br>
+            <b>PSN:</b> Raninho93.
             
         </div>
-        
+        {% endblock contents %}
          
 
-        <!--Rodapé-->    
+        <!--Rodapé   
         <div class="content">
         </div>
         <footer id="myFooter">
@@ -69,4 +73,4 @@
         </footer>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
-</html>
+</html> -->

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
@@ -14,9 +14,9 @@
 
     <body>       
         
-        <!--Cabeçalho-->
+        
         <header>
-            <!--NAVBAR DESKTOP-->
+            
             
             <div class="flex-container" id="cabecalho">
                 <a href="../templates/index.html"><img src="../static/img/LOGOVERDE.png" class="meulogo" alt=""></a>               
@@ -32,21 +32,24 @@
                     </li>
                 </ul>
             </div>
-        </header>       
+        </header>   -->    
             
 
 
-        <!--TELA DE BOAS VINDAS-->    
-        <div class="container">
-            <p id="meio">BEM-VINDOS AO MEU SITE !!!</p>
-            <a href="../templates/index.html"><img src="../static/img/LOGOBRANCO1.png" class="logocel" alt=""></a>
-        </div>      
-            
+        {% extends "base.html" %}
+        {% block contents %}
+            <!--Conteudo-->
+            <div class="container">
+                <p id="meio">BEM-VINDOS AO MEU SITE !!!</p>
+                <a href= "/" ><img src="../static/img/LOGOBRANCO1.png" class="logocel" alt=""></a>
+            </div>     
+        {% endblock contents %}
+        
 
 
 
-        <!--Rodapé-->    
-        <div class="content">
+           
+       <!-- <div class="content">
         </div>
         <footer id="myFooter">
             <div class="container">
@@ -60,4 +63,4 @@
         </footer>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
-</html>
+</html>-->

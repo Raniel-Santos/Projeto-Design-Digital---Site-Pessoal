@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
@@ -15,9 +15,9 @@
 
     <body>       
 
-        <!--Cabeçalho-->
+       
         <header>
-            <!--NAVBAR DESKTOP-->
+           
 
             <div class="flex-container" id="cabecalho">
                 <a href="../templates/index.html"><img src="../static/img/LOGOVERDE.png" class="meulogo" alt=""></a>                
@@ -33,9 +33,10 @@
                     </li>
                 </ul>
             </div>
-        </header>            
+        </header>  -->          
 
-
+        {% extends "base.html" %}
+        {% block contents %}
         <!--conteudo-->    
         <div id="card">
             <p style="text-align: center; font-family: Lancelot, Arial;font-size: 24pt; margin-top: 5px;"><b>SOBRE MIM</b></p>
@@ -55,10 +56,10 @@
                 </ul>
             </div>
         </div>    
-        
+        {% endblock contents %}
          
 
-        <!--Rodapé-->    
+       <!--   
         <div class="content">
         </div>
         <footer id="myFooter">
@@ -73,4 +74,4 @@
         </footer>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
-</html>
+</html>-->

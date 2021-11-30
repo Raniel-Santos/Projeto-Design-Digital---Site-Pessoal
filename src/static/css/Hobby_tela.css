@@ -145,7 +145,7 @@ body{
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color:#041F17;
+  background:#041F17;
   
 }
 
@@ -265,7 +265,7 @@ body{
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color:white;
+    background:#041F17;
   }
 
 @media (max-width:500px) {
@@ -359,6 +359,6 @@ body{
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color:white;
+  background:white;
 }
 

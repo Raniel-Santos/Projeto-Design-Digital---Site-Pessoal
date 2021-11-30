@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../static/css/projetos.css">
+        <link rel="stylesheet" href="../static/css/Hobby_tela.css">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lancelot&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <title>Projetos</title>
+        <title>Hobby</title>
     </head>
-
 
     <body>       
 
-        <!--Cabeçalho-->
+        
         <header>
-            <!--NAVBAR DESKTOP-->
+            
 
             <div class="flex-container" id="cabecalho">
                 <a href="../templates/index.html"><img src="../static/img/LOGOVERDE.png" class="meulogo" alt=""></a>                
@@ -33,28 +32,28 @@
                     </li>
                 </ul>
             </div>
-        </header>            
+        </header> -->
 
-
-        <!--conteudo-->    
-        <div class="projeto">
-
-            <p style="text-align: center; font-family: Lancelot, Arial;font-size: 24pt;"><b>PROJETO API - Sistema de Informações Fatec</b></p>
-            Atualmente, a FATEC São José dos Campos não possui um portal de informações, quer seja para docentes ou discentes, capaz de exibir de forma seletiva e controlada os avisos gerais ou específicos para seus cursos (ex. Divulgação de editais, cursos de extensão, etc.).<br>
-            Portanto, é de interesse de toda a comunidade acadêmica o desenvolvimento de tal sistema.<br>
-            Para Solução do problema, foi desenvolvido o <b>SIF - Sistema de Informações Fatec:</b><br>
-            <img src="../static/img/login_sif.png" class="sif" alt="">
-            <br>
-            <br>
-            <br>
-            <br>
-            Ficou curioso? Acesse o nosso portifólio e veja tudo em detalhes: <a href="https://github.com/marynhaSjc/API-Gfour---Fatec-SJC">Projeto API</a>
-            
-        </div>
         
-         
+            
 
-        <!--Rodapé-->    
+        {% extends "base.html" %}
+        {% block contents %}
+        <!--CONTEUDO--> 
+        <div class="flex-container2">
+            <div class="futebol">
+               <a href="/futebol"> <img src="../static/img/futebol.jpg" class="fut" alt=""> 
+                <h4 class="legendas">FUTEBOL</h4> </a>
+            </div>
+            
+            <div class="hobby">                
+               <a href="/games"> <img src="../static/img/games.jpg" class="games" alt="">
+                <h4 class="legendas">GAMES</h4></a> 
+            </div>
+        </div>
+        {% endblock contents %}
+
+        <!-- 
         <div class="content">
         </div>
         <footer id="myFooter">
@@ -69,4 +68,4 @@
         </footer>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
-</html>
+</html> -->
