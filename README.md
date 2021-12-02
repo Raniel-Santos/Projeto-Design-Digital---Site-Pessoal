@@ -5,13 +5,14 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 
 <h1 align="center">Desenvolvido por:</h1>
 
-<h3 align="center">Raniel Francisco Santos de Paula - 1°Semestre - DSM</h3>
+<h2 align="center">Raniel Francisco Santos de Paula - 1°Semestre - DSM</h2>
 <br>
 
 <h1> Link de Acesso Rápido as Tags </h1>
 
 <h4> Entrega 1 (v1.0): https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/v.1.0 </h4>
 <h4> Entrega 2 (v2.0): https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/v.2.0 </h4>
+<h4> Entrega Final:  </h4>
 
 
 <h1> Ferramentas Utilizadas </h1>
@@ -32,8 +33,8 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 
 
 - /src
-
-- /static
+  - app.py
+  - /static
     - /img
         - background.png
         - icone_home.png
@@ -59,14 +60,54 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 
 
    
-- /templates
-  - futebol.html
-  - games.html
-  - Hobby_tela.html
-  - index.html  
-  - Projetos_tela.html
-  - sobre.html
+  - /templates
+    - futebol.html
+    - games.html
+    - Hobby_tela.html
+    - index.html  
+    - Projetos_tela.html
+    - sobre.html
+    - base.html
+    
 
+<h1> Tutorial de Utilização e Instalação da Aplicação </h1>
+
+Para acessar a aplicação via web acesse: 
+```console
+https://meuportifolioraniel.herokuapp.com/
+```
+
+
+
+
+Implantar esse sistema localmente:
+
+
+<strong> 1. Clonar o repositório </strong>
+
+<strong> 2. Criar um ambiente virtual </strong> 
+```console
+virtualenv env 
+```
+ou (cmd windows)
+
+```console
+py-3 -m venv venv
+```
+
+<strong> 3. Ativar o ambiente virtual:</strong>
+
+```console
+venv\scripts\activate
+```
+<strong> 4. Instalar as dependências:</strong>
+```console
+pip install -r requirements.txt
+```
+<strong> 5. Executar a aplicação </strong>
+```console
+python wsgi.py
+```
 
 <h1> Video Demonstrativo da Aplicação </h1>
  <h4>Link da entrega 1: https://youtu.be/StdLu59V57A </h4>
