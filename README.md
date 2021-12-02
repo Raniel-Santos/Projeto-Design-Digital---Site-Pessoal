@@ -12,7 +12,7 @@ encontradas informações do Desenvolvedor da aplicação. Informaçoes como exp
 
 <h4> Entrega 1 (v1.0): https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/v.1.0 </h4>
 <h4> Entrega 2 (v2.0): https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/v.2.0 </h4>
-<h4> Entrega Final:  </h4>
+<h4> Entrega Final: https://github.com/Raniel-Santos/Projeto-Site_Pessoal/releases/tag/Vers%C3%A3o_Final_1Semestre  </h4>
 
 
 <h1> Ferramentas Utilizadas </h1>
